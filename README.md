@@ -16,7 +16,7 @@ Browsers Support:
 This mixins supports old browsers flexbox syntax.
 
 ## Install
-`brew install wizzaro-less-flexbox-mixins`
+`bower install wizzaro-less-flexbox-mixins`
 
 ## Usage mixins
 ### Mixins for the Parent Element
