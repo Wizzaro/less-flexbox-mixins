@@ -27,93 +27,52 @@ This mixins supports old browsers flexbox syntax.
 ```
 #### Flex direction
 ```
-.flex-direction([@value]) //default @value: row
-.flex-direction-row();
-.flex-direction-row-reverse();
-.flex-direction-column();
-.flex-direction-column-reverse();
+.flex-direction([@value: row]);
 ```
 #### Flex wrap
 ```
-.flex-wrap([@value]); //default @value: nowrap
-.flex-wrap-nowrap();
-.flex-wrap-wrap();
-.flex-wrap-wrap-reverse();
+.flex-wrap([@value: nowrap]);
 ```
 #### Flex flow
 ```
-.flex-flow([@direction][, @wrap]); //default @direction: row, @wrap: nowrap
-.flex-flow-row-nowrap();
-.flex-flow-row-wrap();
-.flex-flow-row-wrap-reverse();
-.flex-flow-row-reverse-nowrap();
-.flex-flow-row-reverse-wrap();
-.flex-flow-row-reverse-wrap-reverse();
-.flex-flow-column-nowrap();
-.flex-flow-column-wrap();
-.flex-flow-column-wrap-reverse();
-.flex-flow-column-reverse-nowrap();
-.flex-flow-column-reverse-wrap();
-.flex-flow-column-reverse-wrap-reverse();
+.flex-flow([@direction: row][, @wrap: nowrap]);
 ```
 #### Justify content
 ```
-.justify-content([@value]); //default @value: flex-start
-.justify-content-flex-start();
-.justify-content-flex-end();
-.justify-content-center();
-.justify-content-space-between();
-.justify-content-space-around();
+.justify-content([@value: flex-start]);
 ```
 #### Align items
 ```
-.align-items([@value]); //default @value: stretch
-.align-items-flex-start();
-.align-items-flex-end();
-.align-items-center();
-.align-items-baseline();
-.align-items-stretch();
+.align-items([@value: stretch]);
 ```
 #### Align content
 ```
-.align-content([@value]); //default @value: stretch
-.align-content-flex-start();
-.align-content-flex-end();
-.align-content-center();
-.align-content-space-between();
-.align-content-space-around();
-.align-content-stretch();
+.align-content([@value: stretch]);
 ```
 ### Mixins for the Item Element
 #### Align self
 ```
-.align-self([@value]); //default @value: auto
-.align-self-auto();
-.align-self-flex-start();
-.align-self-flex-end();
-.align-self-center();
-.align-self-baseline();
-.align-self-stretch();
+.align-self([@value: auto]);
 ```
 #### Order
 ```
-.order([@int]); //default @int: 0
+.order([@int: 0]);
 ```
 #### Flex grow
 ```
-.flex-grow([@int]); //default @int: 0
+.flex-grow([@int: 0]);
 ```
 #### Flex shrink
 ```
-.flex-shrink([@int]); //default @int: 0
+.flex-shrink([@int: 0]);
 ```
 #### Flex basis
 ```
-.flex-basis([@value]); //default @value: auto
+.flex-basis([@value: auto]);
 ```
 #### Flex
 ```
-.flex([@flex-grow][, @flex-shrink][, @flex-basis]); //default @flex-grow: 0, @flex-shrink: 0, @flex-basis: auto
+.flex([@flex-grow: 0][, @flex-shrink: 0][, @flex-basis: auto]);
 ```
 ## Licence
 
